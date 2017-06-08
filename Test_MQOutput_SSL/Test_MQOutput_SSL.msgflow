@@ -15,7 +15,7 @@
       <nodes xmi:type="ComIbmFlowOrder.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="199,99">
         <translation xmi:type="utility:ConstantString" string="Flow Order"/>
       </nodes>
-      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="327,141" queueName="T1" connection="CLIENT" destinationQueueManagerName="TEST" queueManagerHostname="localhost" listenerPortNumber="1414" channelName="IIBSSL.SVRCONN" securityIdentity="idForMQ" useSSL="true" SSLPeerName="CN=TEST, OU=test, O=iib, C=CA" SSLCipherSpec="TLS_RSA_WITH_AES_128_CBC_SHA256">
+      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="326,147" queueName="T1" connection="CLIENT" destinationQueueManagerName="TEST" queueManagerHostname="localhost" listenerPortNumber="1414" channelName="IIBSSL.SVRCONN" securityIdentity="idForMQ" useSSL="true" SSLPeerName="CN=TEST, OU=test, O=iib, C=CA" SSLCipherSpec="TLS_RSA_WITH_AES_128_CBC_SHA256">
         <translation xmi:type="utility:ConstantString" string="MQ Output"/>
       </nodes>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
